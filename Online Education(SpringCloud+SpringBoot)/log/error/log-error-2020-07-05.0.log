@@ -1,0 +1,32 @@
+2020-07-05 10:24:13.690 [http-nio-8001-exec-5] ERROR c.m.servicebase.exceptionhandler.GlobalException - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'courseId' in 'where clause'
+### The error may exist in com/memoforward/eduservice/mapper/EduChapterMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,course_id,title,sort,gmt_create,gmt_modified  FROM edu_chapter     WHERE (courseId = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'courseId' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'courseId' in 'where clause'
+2020-07-05 12:00:09.726 [http-nio-8001-exec-9] ERROR c.m.servicebase.exceptionhandler.GlobalException - 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'is_deleted' in 'field list'
+### The error may exist in com/memoforward/eduservice/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.memoforward.eduservice.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level, avatar, sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'is_deleted' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'is_deleted' in 'field list'
+2020-07-05 12:08:48.963 [http-nio-8001-exec-3] ERROR c.m.servicebase.exceptionhandler.GlobalException - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1279627050788954114' for key 'edu_course.PRIMARY'
+### The error may exist in com/memoforward/eduservice/mapper/EduCourseMapper.java (best guess)
+### The error may involve com.memoforward.eduservice.mapper.EduCourseMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course  ( id, teacher_id, subject_id, subject_parent_id, title, price, lesson_num, cover,      gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?,      ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1279627050788954114' for key 'edu_course.PRIMARY'
+; Duplicate entry '1279627050788954114' for key 'edu_course.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1279627050788954114' for key 'edu_course.PRIMARY'
+2020-07-05 17:00:11.082 [http-nio-8001-exec-9] ERROR c.m.servicebase.exceptionhandler.GlobalException - 章节下还有数据，请清除后再删除！
+2020-07-05 17:00:31.754 [http-nio-8001-exec-1] ERROR c.m.servicebase.exceptionhandler.GlobalException - 章节下还有数据，请清除后再删除！
+2020-07-05 22:21:18.760 [http-nio-8001-exec-8] ERROR c.m.servicebase.exceptionhandler.GlobalException - Missing URI template variable 'courseId' for method parameter of type String
+2020-07-05 22:23:16.616 [http-nio-8001-exec-8] ERROR c.m.servicebase.exceptionhandler.GlobalException - Missing URI template variable 'courseId' for method parameter of type String
+2020-07-05 22:25:05.811 [http-nio-8001-exec-1] ERROR c.m.servicebase.exceptionhandler.GlobalException - Missing URI template variable 'courseId' for method parameter of type String
+2020-07-05 22:26:48.365 [http-nio-8001-exec-9] ERROR c.m.servicebase.exceptionhandler.GlobalException - / by zero
+2020-07-05 22:28:14.418 [http-nio-8001-exec-9] ERROR c.m.servicebase.exceptionhandler.GlobalException - / by zero
+2020-07-05 22:31:01.409 [http-nio-8001-exec-1] ERROR c.m.servicebase.exceptionhandler.GlobalException - 删除失败

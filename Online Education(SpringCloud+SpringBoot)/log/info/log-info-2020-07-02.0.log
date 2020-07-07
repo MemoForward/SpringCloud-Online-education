@@ -1,0 +1,20 @@
+2020-07-02 16:02:31.839 [main] INFO  com.memoforward.eduservice.EduApplication - Starting EduApplication on MemoForwards-MBP.local with PID 5495 (/Users/memoforward/Documents/Project/Java/Online Education/service/service_edu/target/classes started by memoforward in /Users/memoforward/Documents/Project/Java/Online Education)
+2020-07-02 16:02:31.841 [main] INFO  com.memoforward.eduservice.EduApplication - The following profiles are active: dev
+2020-07-02 16:02:32.433 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-02 16:02:32.435 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-02 16:02:32.455 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-07-02 16:02:32.824 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-07-02 16:02:32.829 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-07-02 16:02:32.830 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-02 16:02:32.830 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 16:02:32.883 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-02 16:02:32.883 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1016 ms
+2020-07-02 16:02:33.378 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-02 16:02:33.445 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 16:02:33.834 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-07-02 16:02:33.855 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-07-02 16:02:33.855 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-02 16:02:33.864 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-07-02 16:02:33.887 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-02 16:02:34.007 [main] INFO  com.memoforward.eduservice.EduApplication - Started EduApplication in 2.461 seconds (JVM running for 3.082)
+2020-07-02 20:28:14.793 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

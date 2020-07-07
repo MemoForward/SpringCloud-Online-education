@@ -1,0 +1,19 @@
+2020-07-04 10:52:02.740 [http-nio-8001-exec-9] ERROR c.m.servicebase.exceptionhandler.GlobalException - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+### The error may exist in com/memoforward/eduservice/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.memoforward.eduservice.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id,    level, avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?,    ?, ?, ?,  ?, ? )
+### Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+; Field 'name' doesn't have a default value; nested exception is java.sql.SQLException: Field 'name' doesn't have a default value
+2020-07-04 13:58:02.291 [http-nio-8001-exec-9] ERROR c.m.servicebase.exceptionhandler.GlobalException - java.lang.NullPointerException
+2020-07-04 14:00:29.750 [http-nio-8001-exec-2] ERROR c.m.servicebase.exceptionhandler.GlobalException - java.lang.NullPointerException
+2020-07-04 14:04:58.360 [http-nio-8001-exec-8] ERROR c.m.servicebase.exceptionhandler.GlobalException - java.lang.NullPointerException
+2020-07-04 22:13:30.526 [http-nio-8001-exec-10] ERROR c.m.servicebase.exceptionhandler.GlobalException - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+### The error may exist in com/memoforward/eduservice/mapper/EduCourseMapper.java (best guess)
+### The error may involve com.memoforward.eduservice.mapper.EduCourseMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course  ( id, teacher_id, subject_id,  title, price, lesson_num, cover,      gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,  ?, ?, ?, ?,      ?, ? )
+### Cause: java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+; Field 'subject_parent_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
